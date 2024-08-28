@@ -1,1 +1,88 @@
+<div class='body'>
+<div class='main-block'>
+<div class='circles-holder holder-1'></div>
+<div class='circles-holder holder-2'></div>
+<div class='circles-x'>
 
+<span class='circle-1'></span>
+<span class='circle-2'></span>
+</div>
+<div class='circles-y'>
+<span class='circle-1'></span>
+<span class='circle-2'></span>
+</div>
+</div>
+</div>
+<style>
+*{
+margin:0;
+}
+span{
+height: 60px;
+width: 60px;
+background-color: #8983AE;
+border-radius: 50%;
+position: absolute;
+}
+.circle-1{
+left: -23px;
+top:-10%;
+}
+.circle-2{
+right:-23px;
+top:-10%;
+}
+.circles-x{
+position: relative;
+width:100%;
+height:50px;
+position: absolute;
+display: flex;
+justify-content: space-between;
+}
+.circles-y{
+position: relative;
+width: 100%;
+height: 50px;
+transform: rotate(90deg)
+}
+.body{
+background:#8983AE;
+display:flex;
+height:100%;
+justify-content:center;
+align-items: center
+}
+.main-block {
+display:flex;
+justify-content:center;
+align-items: center;
+width: 165px;
+height: 165px;
+background: #D3B882;
+border-radius:50%;
+position: relative;
+overflow:hidden;
+}
+.main-block .circles-holder{
+background:#8983AE;
+height: 20px;
+width:100%;
+}
+.holder-1{
+transform: rotate(45deg);
+position: absolute
+}
+.holder-2{
+position: absolute;
+transform: rotate(-45deg);
+}
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
